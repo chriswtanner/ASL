@@ -65,6 +65,7 @@ else:
 
 uid = model_type + "_epochs" + str(num_epochs) + "_h" + str(num_hidden_units)
 
+# output metadata for models 
 print("UID:", uid)
 print("\tmodel_type:", model_type)
 print("\tnum_epochs:", num_epochs)
