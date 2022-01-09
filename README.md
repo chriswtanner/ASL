@@ -6,7 +6,7 @@ The SignBank Project
 - Ali Hindy (Stanford)
 - Chris Tanner (Harvard)
 
-# To Run:
+# To Run Models:
 > python3 ASL.py
 
 The program accepts a few hyperparameters:
@@ -23,4 +23,7 @@ Our best performing model yielded 95.9 accuracy and can be run via:
 
 > python3 ASL.py -m BILISTMCNN -e 75 -hs 768 -e True
 
-
+# Repository Structure
+- All data is in the "data" folder. To generate new data, run the Arduino Script 
+- All models are in the "src" folder. 
+- To view the schematics in order to build one of our sensors yourself, view the "schematics" folder. 
