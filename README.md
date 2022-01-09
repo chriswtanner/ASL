@@ -2,9 +2,8 @@
 The SignBank Project
 
 # Authors:
-- Thomas Fouts (Brunswick School)
-- Ali Hindy (Brunswick School)
-- Julia Kreutzer (Google Research)
+- Thomas Fouts (University of Michigan)
+- Ali Hindy (Stanford)
 - Chris Tanner (Harvard)
 
 # To Run:
