@@ -49,6 +49,11 @@ class Modeller:
             model.add(BatchNormalization())
             model.add(Bidirectional(LSTM(512))) #return_sequences=True
         
+        elif model_type == "BILSTM_BIG":
+            model.add(Bidirectional(LSTM(num_hidden_units, return_sequences=True, input_shape=(max_length, num_features))))
+            model.add(BatchNormalization())
+            model.add(Bidirectional(LSTM(1024))) #return_sequences=True
+        
         elif model_type == "CNN":
             model.add(Conv1D(64, (2), activation='relu', input_shape=(max_length, num_features)))
             model.add(BatchNormalization())
